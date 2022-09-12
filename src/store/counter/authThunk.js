@@ -12,6 +12,5 @@ export const login = (email, password) => {
         console.log(loginResponse);
         const {user}=loginResponse;
         dispatch(setUser(user));
-        // dispatch(setUser(userData));
     };
 }

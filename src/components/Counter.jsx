@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { decrement, increment } from '../store/counter/counterSlice'
+import { decrement } from '../store/counter/counterSlice'
 import { login } from '../store/counter/authThunk'
 
 export function Counter() {

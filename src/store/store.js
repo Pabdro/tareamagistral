@@ -1,6 +1,5 @@
-import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit'
+import { configureStore } from '@reduxjs/toolkit'
 import counterReducer from './counter/counterSlice' 
-import pokedexReducer from '../pokedex/pokedexSlice'
 import authReducer from './counter/authSlice'
 import {
   persistReducer,
